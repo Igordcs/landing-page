@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OdontoClínica - Clínica Odontológica</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ÍCONES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/public.css" />
+  </head>
+  <body>
+    <header class="px-4 py-3 shadow-sm sticky-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <i class="fas fa-tooth me-2 text-primary fs-4"></i>
+          <h2 class="mb-0 fw-bold">
+            Odonto<span class="text-primary">Clinica</span>
+          </h2>
+        </div>
+        <nav class="d-none d-md-block">
+          <a href="#sobre" class="text-primary-dark me-4 text-decoration-none">Sobre</a>
+          <a href="#servicos" class="me-4 text-decoration-none text-primary-dark">Serviços</a>
+          <a href="#equipe" class="me-4 text-decoration-none text-primary-dark">Equipe</a>
+          <a href="#depoimentos" class="me-4 text-decoration-none text-primary-dark"
+            >Depoimentos</a
+          >
+          <a href="#contato" class="text-decoration-none text-primary-dark">Contato</a>
+        </nav>
+        <button
+          class="btn btn-primary d-md-none"
+          type="button"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="fw-bold mb-3 display-4">
+              Seu sorriso perfeito começa aqui
+            </h1>
+            <p class="lead mb-4">
+              Tecnologia de ponta e atendimento humanizado para transformar seu
+              sorriso e sua confiança.
+            </p>
+            <div
+              class="d-flex gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a href="#contato" class="btn btn-primary btn-lg px-4">
+                Agende sua consulta
+              </a>
+              <a href="#servicos" class="btn btn-outline-primary btn-lg px-4">
+                Nossos serviços
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-center mt-5 mt-lg-0">
+            <img
+              src="/public/imgs/hero_img.avif"
+              alt="Imagem de background"
+              class="img-fluid rounded-4 shadow"
+              style="max-width: 100%; height: auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="container py-5 my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="pe-lg-5">
+            <span class="badge bg-primary-soft mb-3">Sobre nós</span>
+            <h2 class="section-title mb-4">
+              Excelência em cuidados odontológicos
+            </h2>
+            <p class="mb-4">
+              A OdontoClínica é referência em odontologia estética, preventiva e
+              restauradora. Nossa clínica combina tecnologia de ponta com
+              profissionais altamente qualificados para oferecer o melhor
+              tratamento personalizado para cada paciente.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-check-circle text-primary me-2"></i> Equipe
+                especializada e atualizada
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-check-circle text-primary me-2"></i> Tecnologia
+                de última geração
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-check-circle text-primary me-2"></i> Ambiente
+                acolhedor e seguro
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-check-circle text-primary me-2"></i> Planos de
+                tratamento personalizados
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex flex-column" style="gap: 1rem">
+          <img
+            src="/public/imgs/clinica.avif"
+            alt="Clínica"
+            class="img-fluid rounded-3 shadow-sm h-50 object-fit-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-primary-soft mb-3">Nossos serviços</span>
+          <h2 class="section-title mb-3">
+            Cuidados completos para seu sorriso
+          </h2>
+          <p class="text-muted w-lg-50 mx-auto">
+            Oferecemos uma gama completa de serviços odontológicos para todas as
+            idades e necessidades.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-tooth"></i>
+                </div>
+                <h4 class="mb-3">Clínico Geral</h4>
+                <p class="mb-0 text-muted">
+                  Check-ups, limpezas, restaurações e tratamentos preventivos
+                  para manter sua saúde bucal em dia.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-smile"></i>
+                </div>
+                <h4 class="mb-3">Estética Dental</h4>
+                <p class="mb-0 text-muted">
+                  Clareamento, facetas de porcelana, lentes de contato dental e
+                  harmonização facial para um sorriso perfeito.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-baby"></i>
+                </div>
+                <h4 class="mb-3">Odontopediatria</h4>
+                <p class="mb-0 text-muted">
+                  Atendimento especializado e humanizado para crianças, criando
+                  uma experiência positiva com a odontologia.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-teeth-open"></i>
+                </div>
+                <h4 class="mb-3">Ortodontia</h4>
+                <p class="mb-0 text-muted">
+                  Aparelhos fixos, móveis e alinhadores invisíveis para corrigir
+                  a posição dos dentes e melhorar a oclusão.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-tooth"></i>
+                </div>
+                <h4 class="mb-3">Implantes Dentários</h4>
+                <p class="mb-0 text-muted">
+                  Reposição de dentes perdidos com implantes de titânio que se
+                  integram ao osso, devolvendo função e estética.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm elevation">
+              <div class="card-body p-4 text-center">
+                <div
+                  class="icon-lg bg-primary-soft text-primary rounded-circle mb-4 mx-auto"
+                >
+                  <i class="fas fa-teeth"></i>
+                </div>
+                <h4 class="mb-3">Prótese Dentária</h4>
+                <p class="mb-0 text-muted">
+                  Próteses fixas ou removíveis para substituir dentes ausentes,
+                  restabelecendo a mastigação e a fala.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="equipe" class="py-5 my-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-primary-soft mb-3">Nossa equipe</span>
+          <h2 class="section-title mb-3">Profissionais especializados</h2>
+          <p class="text-muted w-lg-50 mx-auto">
+            Conheça nossa equipe de dentistas altamente qualificados e
+            comprometidos com seu sorriso.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm elevation">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                class="card-img-top rounded-top doctor-img"
+                alt="Dra. Ana Silva"
+              />
+              <div class="card-body text-center">
+                <h5 class="mb-1">Dra. Ana Silva</h5>
+                <p class="text-muted mb-3">Clínico Geral e Estética</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm elevation">
+              <img
+                src="public/imgs/doutor1.avif"
+                class="card-img-top rounded-top doctor-img"
+                alt="Dr. Carlos Mendes"
+              />
+              <div class="card-body text-center">
+                <h5 class="mb-1">Dr. Carlos Mendes</h5>
+                <p class="text-muted mb-3">Ortodontista</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm elevation">
+              <img
+                src="public/imgs/doutor2.avif"
+                class="card-img-top rounded-top doctor-img"
+                alt="Dra. Juliana Costa"
+              />
+              <div class="card-body text-center">
+                <h5 class="mb-1">Dra. Juliana Costa</h5>
+                <p class="text-muted mb-3">Odontopediatra</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm elevation">
+              <img
+                src="public/imgs/doutor3.avif"
+                class="card-img-top rounded-top doctor-img"
+                alt="Dr. Marcos Oliveira"
+              />
+              <div class="card-body text-center">
+                <h5 class="mb-1">Dr. Marcos Oliveira</h5>
+                <p class="text-muted mb-3">Implantodontista</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="depoimentos" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-primary-soft mb-3">Depoimentos</span>
+          <h2 class="section-title mb-3">O que nossos pacientes dizem</h2>
+          <p class="text-muted w-lg-50 mx-auto">
+            A satisfação dos nossos pacientes é nossa maior recompensa.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="/public/imgs/pessoa1.jpg"
+                    class="rounded-circle me-3"
+                    width="50"
+                    height="50"
+                    alt="Maria Santos"
+                  />
+                  <div>
+                    <h6 class="mb-0">Maria Santos</h6>
+                    <div class="text-warning">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0">
+                  "Fiz clareamento e colocação de facetas na OdontoClínica e
+                  amei o resultado! A equipe é super atenciosa e profissional.
+                  Meu sorriso nunca esteve tão bonito!"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="/public/imgs/pessoa2.jpg"
+                    class="rounded-circle me-3"
+                    width="50"
+                    height="50"
+                    alt="João Pereira"
+                  />
+                  <div>
+                    <h6 class="mb-0">João Pereira</h6>
+                    <div class="text-warning">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0">
+                  "Depois de anos com vergonha do meu sorriso, coloquei
+                  implantes na OdontoClínica e foi a melhor decisão. O Dr.
+                  Marcos é excelente e todo o atendimento foi impecável."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="/public/imgs/pessoa3.jpg"
+                    class="rounded-circle me-3"
+                    width="50"
+                    height="50"
+                    alt="Carla Mendonça"
+                  />
+                  <div>
+                    <h6 class="mb-0">Carla Mendonça</h6>
+                    <div class="text-warning">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-0">
+                  "Minha filha tinha medo de dentista até conhecer a Dra.
+                  Juliana. O atendimento para crianças é maravilhoso! Agora ela
+                  adora ir ao dentista e cuida muito bem dos dentinhos."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="pe-lg-5">
+              <p class="badge bg-primary-soft mb-3">Entre em contato</p>
+              <h2 class="section-title mb-4">Agende sua consulta</h2>
+              <p class="mb-4">
+                Estamos prontos para cuidar do seu sorriso. Entre em contato
+                para marcar uma avaliação ou tirar suas dúvidas.
+              </p>
+
+              <div class="d-flex mb-4">
+                <div
+                  class="icon-sm bg-primary-soft text-primary rounded-circle me-3"
+                >
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Telefone</h5>
+                  <p class="mb-0">(11) 99999-9999</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div
+                  class="icon-sm bg-primary-soft text-primary rounded-circle me-3"
+                >
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Email</h5>
+                  <p class="mb-0">contato@OdontoClínica.com.br</p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div
+                  class="icon-sm bg-primary-soft text-primary rounded-circle me-3"
+                >
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Endereço</h5>
+                  <p class="mb-0">Av. Paulista, 1000 - São Paulo, SP</p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mt-4">
+                <a
+                  href="#"
+                  class="icon-md bg-primary-soft text-primary rounded-circle"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="icon-md bg-primary-soft text-primary rounded-circle"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="#"
+                  class="icon-md bg-primary-soft text-primary rounded-circle"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4 p-lg-5">
+                <h3 class="mb-4">Envie uma mensagem</h3>
+                <form>
+                  <div class="mb-3">
+                    <label for="nome" class="form-label">Nome completo</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nome"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="telefone"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="servico" class="form-label"
+                      >Serviço de interesse</label
+                    >
+                    <select class="form-select" id="servico">
+                      <option selected>Selecione um serviço</option>
+                      <option>Clínico Geral</option>
+                      <option>Estética Dental</option>
+                      <option>Odontopediatria</option>
+                      <option>Ortodontia</option>
+                      <option>Implantes Dentários</option>
+                      <option>Prótese Dentária</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea
+                      class="form-control"
+                      id="mensagem"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Enviar mensagem
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h4 class="mb-0">Pronto para transformar seu sorriso?</h4>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#contato" class="btn btn-light">Agendar consulta</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-tooth me-2 fs-4 text-primary"></i>
+              <h3 class="mb-0 fw-bold">
+                Odonto<span class="text-primary">Clínica</span>
+              </h3>
+            </div>
+            <p class="mb-4">
+              Cuidando do seu sorriso com excelência e tecnologia para uma vida
+              mais saudável e feliz.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+            <h5 class="mb-4">Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#sobre" class="text-white text-decoration-none"
+                  >Sobre</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#servicos" class="text-white text-decoration-none"
+                  >Serviços</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#equipe" class="text-white text-decoration-none"
+                  >Equipe</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#depoimentos" class="text-white text-decoration-none"
+                  >Depoimentos</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#contato" class="text-white text-decoration-none"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
+            <h5 class="mb-4">Serviços</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Clínico Geral</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Estética Dental</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Odontopediatria</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Ortodontia</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Implantes</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3">
+            <h5 class="mb-4">Horário de funcionamento</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">Segunda a Sexta: 8h às 19h</li>
+              <li class="mb-2">Sábado: 8h às 13h</li>
+              <li class="mb-2">Domingo: Fechado</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-5 border-secondary" />
+
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <p class="mb-0">
+              &copy; 2023 OdontoClínica. Todos os direitos reservados.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="text-white text-decoration-none me-3"
+              >Política de Privacidade</a
+            >
+            <a href="#" class="text-white text-decoration-none"
+              >Termos de Uso</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
